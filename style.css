@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url('https://fonts.cdnfonts.com/s/21353/BAHNSCHRIFT.woff') format('woff');
+  }
+  
+
+html {
+    background-image: url(library.jpg);
+    background-size: cover;
+    height: 100%;
+    
+}
+
+
+body {
+    height: 50%;
+    width: 90%;
+    background-color: rgba(140, 245, 229, 0.529);
+    display: table;
+    margin: 0 auto;
+    vertical-align: middle; 
+    margin-top: 10%; 
+    border-radius: 20px; 
+}
+
+table{
+    width: 90%;
+    padding-top: 10px;
+    padding-left: 10%;
+    font-family: 'Bahnschrift', sans-serif;
+}
+
+table thead {
+    line-height: 3em;
+    text-align: center;
+    font-style: bold;
+}
+
+.headerspan {
+    font-size: 3em;
+    letter-spacing: .3em;
+}
+
+.days {
+    text-align: center;
+    margin-top: 30px;
+    line-height: 4em;
+    font-size: 2em;
+    
+}
+
+.times {
+    text-align: center;
+}
