@@ -25,10 +25,15 @@ body {
 }
 
 table{
-    width: 90%;
-    padding-top: 10px;
-    padding-left: 10%;
+    width: 85%;
     font-family: 'Bahnschrift', sans-serif;
+    margin-top: 25px;
+    border-style: double;
+    border-width: 3px;
+    border-color: rgb(104, 37, 26);
+    border-radius: 15px;
+    margin-left: 6%;
+    
 }
 
 table thead {
@@ -39,19 +44,20 @@ table thead {
 
 .headerspan {
     font-size: 3em;
-    letter-spacing: .3em;
+    letter-spacing: .4em;
 }
 
 .days {
     text-align: center;
     margin-top: 30px;
-    line-height: 4em;
+    line-height: 3em;
     font-size: 2em;
     
 }
 
 .times {
     text-align: center;
+    vertical-align: top;
 }
 
 footer {
